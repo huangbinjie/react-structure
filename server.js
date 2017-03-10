@@ -27,7 +27,7 @@ app.all("*", (req, res) => {
   const method = req.method
   const headers = req.headers
   const body = req.body
-  restler.request("http://10.9.42.230:8443" + url, {
+  restler.request("url" + url, {
     method: method,
     headers: headers,
     data: JSON.stringify(body)
