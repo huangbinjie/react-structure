@@ -1,0 +1,128 @@
+{
+  "rules": {
+    // TypeScript Specific
+    "adjacent-overload-signatures": true,
+    "member-access": true,
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "public-static-field",
+          "public-static-method",
+          "public-instance-field",
+          "public-instance-method",
+          "constructor",
+          "protected-static-field",
+          "protected-static-method",
+          "protected-instance-field",
+          "protected-instance-method",
+          "private-static-field",
+          "private-static-method",
+          "private-instance-field",
+          "private-instance-method"
+        ]
+      }
+    ],
+    "no-any": true,
+    "no-internal-module": true,
+    "no-magic-numbers": true,
+    "no-reference": true,
+    "no-var-requires": true,
+    "only-arrow-functions": true,
+    //    "promise-function-async": true,
+    "typedef": [
+      true,
+      "call-signature",
+      "parameter",
+      "property-declaration",
+      "member-variable-declaration"
+    ],
+    // Functionality
+    "ban": [
+      "eval"
+    ],
+    "curly": true,
+    "import-blacklist": true,
+    "label-position": true,
+    "no-arg": true,
+    "no-bitwise": true,
+    "no-conditional-assignment": true,
+    "no-construct": true,
+    "no-duplicate-variable": true,
+    "no-empty": true,
+    "no-eval": true,
+    //    "no-for-in-array": true,
+    //    "no-inferred-empty-object-type": true,
+    //    "no-invalid-this": true,
+    "no-null-keyword": true,
+    "no-shadowed-variable": true,
+    "no-string-literal": true,
+    "no-switch-case-fall-through": true,
+    "no-unsafe-finally": true,
+    "no-unused-expression": true,
+    "no-unused-new": true,
+    "no-use-before-declare": true,
+    "no-var-keyword": true,
+    "radix": true,
+    //    "restrict-plus-operands": true,
+    //    "strict-boolean-expressions": true,
+    "switch-default": true,
+    "triple-equals": [
+      true,
+      "allow-null-check"
+    ],
+    "use-isnan": true,
+    // Maintainability
+    "cyclomatic-complexity": [
+      true,
+      20
+    ],
+    "no-default-export": true,
+    "no-mergeable-namespace": true,
+    "no-require-imports": true,
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "never",
+        "singleline": "never"
+      }
+    ],
+    // Style
+    "array-type": [
+      true,
+      "generic"
+    ],
+    "class-name": true,
+    "new-parens": true,
+    "no-angle-bracket-type-assertion": true,
+    "no-parameter-properties": true,
+    "object-literal-key-quotes": [
+      true,
+      "consistent-as-needed"
+    ],
+    "object-literal-shorthand": true,
+    "one-line": [
+      true,
+      "check-catch",
+      "check-finally",
+      "check-else"
+    ],
+    "one-variable-per-declaration": true,
+    "quotemark": [
+      true,
+      "jsx-double",
+      "single",
+      "avoid-escape"
+    ],
+    "semicolon": [
+      true,
+      "never"
+    ],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore"
+    ]
+  }
+}
